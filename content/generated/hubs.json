@@ -5,7 +5,7 @@
     "pageType": "hub",
     "navLabel": "Guides",
     "title": "Unstable SMP FFA Guides",
-    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable Smp Ffa Map, Unstable Smp Ffa Java Pvp, Unstable Smp Ffa Ip, Unstable SMP FFA Beginner Guide.",
+    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable SMP FFA Map, Unstable SMP FFA Java PvP, Unstable SMP FFA IP, Unstable SMP FFA Beginner Guide.",
     "navVisible": true,
     "parentSlug": "",
     "hero": {
@@ -20,17 +20,17 @@
         "intro": "Pick a topic below. New Unstable SMP FFA pages in this section are added here as soon as they are published.",
         "links": [
           {
-            "label": "Unstable Smp Ffa Map",
+            "label": "Unstable SMP FFA Map",
             "slug": "maps",
             "description": "Learn how to read the Unstable SMP FFA map, plan routes, compare arena zones, prepare for matches, and navigate verified locations without assuming map details."
           },
           {
-            "label": "Unstable Smp Ffa Java Pvp",
+            "label": "Unstable SMP FFA Java PvP",
             "slug": "pvp",
             "description": "Improve at Unstable SMP FFA PvP with a repeatable combat routine, kit testing, healing and inventory habits, practice methods, and better fight decisions."
           },
           {
-            "label": "Unstable Smp Ffa Ip",
+            "label": "Unstable SMP FFA IP",
             "slug": "server-ip",
             "description": "Check what is verified about the Unstable SMP FFA IP, find legitimate access information, follow connection steps, and avoid fake servers and unsafe links."
           },
