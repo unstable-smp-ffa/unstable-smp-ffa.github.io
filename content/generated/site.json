@@ -1,0 +1,71 @@
+{
+  "readyForLaunch": true,
+  "siteName": "Unstable SMP FFA Guide",
+  "shortName": "Unstable SMP FFA",
+  "description": "Explore our complete Unstable SMP FFA Roblox wiki and guide featuring active redeem codes, beginner progression steps, core mechanics tables, and winning tips.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "obsidian-red",
+    "overrides": {
+      "background": "213 13% 86%",
+      "foreground": "0 0% 7%",
+      "card": "213 13% 82%",
+      "card-foreground": "0 0% 7%",
+      "primary": "209 9% 46%",
+      "primary-foreground": "0 0% 100%",
+      "secondary": "213 13% 79%",
+      "muted": "213 13% 81%",
+      "muted-foreground": "0 0% 7%",
+      "border": "213 13% 70%",
+      "radius": ".75rem",
+      "card-shadow": "0 18px 50px rgba(20, 20, 30, .1)",
+      "hero-gradient": "radial-gradient(circle at 78% 14%, hsl(209 9% 46% / .2), transparent 36%)",
+      "background-pattern": "linear-gradient(hsl(0 0% 7% / .04) 1px, transparent 1px), linear-gradient(90deg, hsl(0 0% 7% / .04) 1px, transparent 1px)",
+      "font-sans": "\"Source Sans 3\", ui-sans-serif, system-ui, sans-serif",
+      "font-heading": "\"Source Sans 3\", ui-sans-serif, system-ui, sans-serif",
+      "heading-weight": "700",
+      "heading-letter-spacing": "-0.02em"
+    },
+    "skin": "technical-wiki",
+    "headerStyle": "solid",
+    "componentStyle": "sharp",
+    "accentColorId": "default",
+    "colorMode": "custom",
+    "background": "#D7DBE0",
+    "accent": "#6B7680",
+    "fontId": "source-sans"
+  },
+  "hosting": {
+    "siteUrl": "https://unstable-smp-ffa.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "allowedExternalDomains": [
+    "www.roblox.com"
+  ],
+  "assets": {
+    "logo": "/images/unstable-smp-ffa-logo.png",
+    "cover": "/images/unstable-smp-ffa-cover.png",
+    "openGraph": "/images/unstable-smp-ffa-og.svg",
+    "favicon": "/images/unstable-smp-ffa-logo.png"
+  },
+  "game": {
+    "name": "Unstable SMP FFA",
+    "platform": "Roblox",
+    "developer": "[IS] Insomnia Studios",
+    "genre": "",
+    "officialUrl": "https://www.roblox.com/games/76870565041704"
+  },
+  "seo": {
+    "titleTemplate": "%s | Unstable SMP FFA Guide"
+  },
+  "navigation": [
+    "codes",
+    "guides",
+    "updates",
+    "characters",
+    "items"
+  ]
+}

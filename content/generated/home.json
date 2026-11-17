@@ -1,0 +1,269 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Unstable SMP FFA Wiki & Guide (2026) – Codes, Tips & Meta",
+  "description": "Explore our complete Unstable SMP FFA Roblox wiki and guide featuring active redeem codes, beginner progression steps, core mechanics tables, and winning tips.",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Unstable SMP FFA Wiki & Guide",
+    "heading": "Unstable SMP FFA Guide & Wiki: Mechanics, Codes & Starter Roadmap",
+    "lead": "Unstable SMP FFA is a free-to-play Roblox simulator where you battle as characters from the Unstable Universe using Java 1.21.11 combat mechanics. Spawn with real gear and engage in Free For All PvP, Duels, or solo Simulator runs against up to 100 soldiers across rotating arenas. Play as one of 28 characters—from Wemmbu and ParrotX2 to the unlockable invisible Wraith—using spear lunges, mace smashes, elytra, wind charges, and TNT cart tactics on PC, phone, or controller.",
+    "supportingText": "",
+    "primaryLink": {
+      "label": "Open Java Pvp",
+      "slug": "java-pvp"
+    },
+    "secondaryLink": {
+      "label": "Open official game page",
+      "url": "https://www.roblox.com/games/76870565041704"
+    }
+  },
+  "sections": [
+    {
+      "id": "core-mechanics-game-modes-in-unstable-smp-ffa",
+      "heading": "Core Mechanics & Game Modes in Unstable SMP FFA",
+      "intro": "Unstable SMP FFA centers on three distinct gameplay modes, each offering a different competitive or solo experience. In Free For All, you spawn as your chosen character with authentic gear and armor trims, then fight up to dozens of other players in real-time PvP combat. Duels let you challenge individual opponents one-on-one, and a Practice Dummy provides a way to test mechanics without live pressure. Each mode uses the same Java 1.21.11 combat system that powers the experience.",
+      "paragraphs": [
+        "The combat arsenal is built around weapons and mechanics from modern Java Minecraft. You'll engage with spear lunges for close-range rushes, mace smashes for crowd control and burst damage, elytra and rockets for vertical repositioning and evasion, wind charges to push enemies or yourself away from danger, projectiles like pearls and tridents for ranged options, and TNT carts that explode on impact for high-risk, high-reward plays. Mastering when to use each tool against different opponents is central to winning fights.",
+        "Simulator mode shifts the focus to cooperative or solo gameplay against AI-controlled faction armies. You can play alone or team up with a party of up to 10 players, then face armies of up to 100 soldiers that actively fight back and heal themselves mid-battle. The enemies represent four named factions: NULL, The Law, Cindercrest, and the Kingdom of Unstable. Each faction presents unique challenges, making Simulator both a training ground for combat skills and an alternative endgame activity when you want PvE combat instead of PvP."
+      ],
+      "table": {
+        "caption": "Unstable SMP FFA Quick Reference & Progression Overview",
+        "columns": [
+          "Progression Stage",
+          "Core Objective",
+          "Key Mechanic",
+          "Player Priority"
+        ],
+        "rows": [
+          [
+            "Early Game Setup",
+            "Learn Unstable SMP FFA core loop",
+            "Initial resource & starter unlock",
+            "Complete tutorial loop before spending currency"
+          ],
+          [
+            "Mid Game Scaling",
+            "Unlock higher multiplier tiers",
+            "Loadout / upgrade synergy",
+            "Focus on repeatable milestones and efficiency"
+          ],
+          [
+            "Endgame & Updates",
+            "Bosses, events, and new worlds",
+            "High-tier drops & patch preparation",
+            "Track official update logs and optimize builds"
+          ]
+        ]
+      },
+      "bullets": [
+        "Free For All: spawn with character gear, fight multiple opponents simultaneously",
+        "Duels: one-on-one battles with single opponents",
+        "Simulator: solo or party of up to 10 against up to 100 AI soldiers from four factions",
+        "Combat uses spears, maces, elytra, wind charges, projectiles, and TNT carts",
+        "All modes use Java 1.21.11 mechanics for authentic Java Minecraft gameplay"
+      ]
+    },
+    {
+      "id": "the-28-playable-characters-unlockables",
+      "heading": "The 28 Playable Characters & Unlockables",
+      "intro": "Unstable SMP FFA features 28 playable characters drawn directly from the Unstable Universe, all available to play immediately upon joining. You can spawn as Wemmbu, ParrotX2, SpokeIsHere, FlameFrags, ManePear, and 23 others, each spawning with their authentic gear and trims from Java 1.21.11 combat. No payment or grinding is required to access any of these core characters—they are part of the free-to-play experience.",
+      "paragraphs": [
+        "Beyond the standard roster, one special character remains locked: The Wraith. Unlike other characters, The Wraith plays as an invisible combatant, fundamentally changing how you engage in Free For All and Duels. To unlock The Wraith and experience invisible gameplay, you must meet an undisclosed progression requirement within the game. Once obtained, The Wraith becomes a permanent addition to your character pool and can be selected before any match.",
+        "Each character retains their signature loadout, so your tactical choice in the character select screen directly shapes your arsenal and playstyle. For a complete breakdown of individual character abilities and optimal item combinations, see the Characters & Kits page."
+      ],
+      "bullets": [
+        "28 free-to-play characters available immediately, including Wemmbu, ParrotX2, SpokeIsHere, FlameFrags, and ManePear",
+        "The Wraith: unlockable invisible character with a special progression requirement",
+        "All characters spawn with authentic gear and trims matching the Unstable Universe"
+      ]
+    },
+    {
+      "id": "three-rotating-arenas-arena-rotation",
+      "heading": "Three Rotating Arenas & Arena Rotation",
+      "intro": "Unstable SMP FFA cycles through three distinct arenas: Northern Council, MinuteTech's End Base, and FlameFrags & Wemmbu's 2v1000. Each arena swaps out every 15 minutes, so you will experience all three environments across a typical session. The rotation applies to all modes—Free For All, Duels, and Simulator—ensuring variety in terrain and sightlines.",
+      "paragraphs": [
+        "Each arena offers unique cover, elevation, and engagement ranges. Northern Council features council-hall architecture, MinuteTech's End Base provides End-dimension aesthetics with obsidian platforms, and FlameFrags & Wemmbu's 2v1000 recreates the iconic outnumbered battleground. For detailed spawn points, choke-point tactics, and optimal elytra routes in each arena, see the dedicated Maps page."
+      ]
+    },
+    {
+      "id": "platforms-controls-accessibility",
+      "heading": "Platforms, Controls & Accessibility",
+      "intro": "Unstable SMP FFA runs on PC, phone, and controller, so you can jump into combat on whatever device you have. Whether you're at your desk, on mobile, or using a gamepad, the game adapts to your setup without forcing you into one control scheme.",
+      "paragraphs": [
+        "All controls are rebindable, letting you customize keybinds to match your playstyle. This flexibility means you can map spear lunges, mace smashes, elytra boosts, and other Java 1.21.11 combat actions to buttons that feel natural to you—especially useful if you're switching between PvP modes or moving from casual Simulator runs to competitive Duels.",
+        "No special software or downloads beyond Roblox itself are required; the experience launches directly from the platform on any supported device. This straightforward access removes barriers for new players entering the Unstable Universe for the first time."
+      ]
+    },
+    {
+      "id": "how-to-get-started-first-steps",
+      "heading": "How to Get Started: First Steps",
+      "intro": "To join Unstable SMP FFA, launch the experience on Roblox from any device—PC, phone, or controller all work with rebindable controls. When you spawn, you'll immediately choose one of 28 playable characters, each with their own real gear and trims from the Unstable Universe. New players start with free access to all core characters like Wemmbu, ParrotX2, FlameFrags, and SpokeIsHere; the invisible Wraith is an unlockable special character for later.",
+      "paragraphs": [
+        "The game offers three distinct ways to play, each suited to different moods. Free For All throws you into PvP matches against other players with full Java 1.21.11 combat—spear lunges, mace smashes, elytra, wind charges, and TNT carts included. Duels let you face one opponent head-to-head. If you want to test your gear and tactics alone first, use the Practice Dummy to warm up before jumping into competitive rounds.",
+        "After your first match, head to the Beginner Guide page for a step-by-step progression plan, control breakdown, and early upgrade priorities. The game rotates through three arenas every 15 minutes, so you'll encounter different layouts as you play—see the Maps page for arena-specific positioning tips once you're ready to optimize."
+      ],
+      "steps": [
+        {
+          "heading": "Check Current Unstable SMP FFA Requirements",
+          "description": "Review the active mechanics and prerequisites inside Unstable SMP FFA before committing resources."
+        },
+        {
+          "heading": "Complete the Core Progression Loop",
+          "description": "Follow the primary objective sequence to unlock the next multiplier, zone, or equipment slot."
+        },
+        {
+          "heading": "Verify Post-Update Changes",
+          "description": "Re-check the comparison table and official Unstable SMP FFA patch notes whenever a new update drops."
+        }
+      ],
+      "bullets": [
+        "Playable on Roblox; supports PC, phone, and controller with rebindable controls.",
+        "Choose from 28 free characters or unlock the invisible Wraith.",
+        "Three modes: Free For All PvP, Duels, and Practice Dummy.",
+        "Use the Beginner Guide for next steps and control reference."
+      ]
+    },
+    {
+      "id": "guide-directory-codes",
+      "eyebrow": "Guides & Wiki",
+      "heading": "Unstable SMP FFA Codes & Rewards",
+      "intro": "Dedicated Unstable SMP FFA Codes & Rewards pages for Unstable SMP FFA players.",
+      "links": [
+        {
+          "label": "Unstable SMP FFA Codes",
+          "slug": "codes",
+          "description": "Looking for working Unstable SMP FFA codes on Roblox? Check our updated status table of active redeem codes, free rewards, and step-by-step claim instructions."
+        }
+      ]
+    },
+    {
+      "id": "guide-directory-updates",
+      "eyebrow": "Guides & Wiki",
+      "heading": "Unstable SMP FFA Updates & News",
+      "intro": "Dedicated Unstable SMP FFA Updates & News pages for Unstable SMP FFA players.",
+      "links": [
+        {
+          "label": "Unstable SMP FFA Update",
+          "slug": "updates",
+          "description": "Complete Unstable SMP FFA Update guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        }
+      ]
+    },
+    {
+      "id": "guide-directory-guides",
+      "eyebrow": "Guides & Wiki",
+      "heading": "Unstable SMP FFA Guides",
+      "intro": "Every Unstable SMP FFA Guides page, plus the full index for this topic.",
+      "links": [
+        {
+          "label": "Unstable SMP FFA Java PvP",
+          "slug": "java-pvp",
+          "description": "Complete Unstable SMP FFA Java PvP guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable Smp Ffa Map",
+          "slug": "maps",
+          "description": "Complete Unstable Smp Ffa Map guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable Smp Ffa Ip",
+          "slug": "ip",
+          "description": "Complete Unstable Smp Ffa Ip guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable Smp Ffa Server",
+          "slug": "server",
+          "description": "Complete Unstable Smp Ffa Server guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable SMP FFA Beginner Guide",
+          "slug": "beginner-guide",
+          "description": "Master the basics with our Unstable SMP FFA beginner guide on Roblox. Learn the core gameplay loop, first 15-minute progression steps, controls table, and tips."
+        },
+        {
+          "label": "Unstable SMP FFA Combat",
+          "slug": "combat",
+          "description": "Complete Unstable SMP FFA Combat guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable SMP FFA Kits",
+          "slug": "kit",
+          "description": "Complete Unstable SMP FFA Kits guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "Unstable SMP FFA Pvp",
+          "slug": "pvp",
+          "description": "Complete Unstable SMP FFA Pvp guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        },
+        {
+          "label": "All Unstable SMP FFA Guides",
+          "slug": "guides",
+          "description": "Index of every Unstable SMP FFA Guides page."
+        }
+      ]
+    },
+    {
+      "id": "guide-directory-database",
+      "eyebrow": "Guides & Wiki",
+      "heading": "Unstable SMP FFA Database",
+      "intro": "Dedicated Unstable SMP FFA Database pages for Unstable SMP FFA players.",
+      "links": [
+        {
+          "label": "Unstable SMP FFA Character Unlocks",
+          "slug": "characters",
+          "description": "Complete Unstable SMP FFA Character Unlocks guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities."
+        },
+        {
+          "label": "Unstable SMP FFA Items",
+          "slug": "items",
+          "description": "Complete Unstable SMP FFA Items guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do you play Unstable SMP FFA on Roblox?",
+      "answer": "Search for Unstable SMP FFA [JAVA PVP!] on Roblox and join. Select one of 28 characters, each spawning with their real gear and trims. Choose between Free For All (PvP against players), Duels (1v1 combat), or Simulator (solo or party of up to 10 against up to 100 soldiers). Use Java 1.21.11 weapons—spears, maces, elytra, wind charges, tridents, and TNT carts—to defeat opponents across three rotating arenas."
+    },
+    {
+      "question": "What characters can you play in Unstable SMP FFA?",
+      "answer": "The game offers 28 playable characters including Wemmbu, ParrotX2, SpokeIsHere, FlameFrags, and ManePear. Each spawns with their own gear and trims from the Unstable Universe. The Wraith is a special unlockable character that lets you play invisibly, adding a stealth option to standard PvP and Simulator modes."
+    },
+    {
+      "question": "Can you play Unstable SMP FFA on mobile or console?",
+      "answer": "Yes. Unstable SMP FFA runs on PC, phone, and controller, with fully rebindable controls so you can customize your layout. This multi-platform support means you can play on your preferred device with the same core mechanics."
+    }
+  ],
+  "screenshots": [],
+  "sources": [
+    {
+      "url": "https://www.roblox.com/games/76870565041704",
+      "title": "Unstable SMP FFA [JAVA PVP!]",
+      "sourceType": "official"
+    },
+    {
+      "url": "https://unstablesmpffa.wiki/",
+      "title": "Unstable SMP FFA Wiki - Roblox PvP Guides, Kits &amp; Codes",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://unstable-smp-ffa.wiki/",
+      "title": "Unstable SMP FFA Wiki - Servers, IP &amp; Scripts",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://unstablesmpffawiki.wiki/",
+      "title": "Unstable SMP FFA Wiki: Codes, Kits &amp; Combat",
+      "sourceType": "guide"
+    },
+    {
+      "url": "https://www.roblox.com/games/76870565041704",
+      "title": "Unstable SMP FFA Official Mechanics & Early-Bird Reference",
+      "sourceType": "guide"
+    }
+  ],
+  "lastReviewed": "2026-11-17"
+}
