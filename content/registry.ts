@@ -1,4 +1,4 @@
-import type { SeoPageDefinition } from "@/config/types";
+import type { InternalLink, SeoPageDefinition } from "@/config/types";
 import { siteConfig } from "@/config/site";
 import rawHubPages from "./generated/hubs.json";
 import { legalPages } from "./legal";
@@ -18,6 +18,16 @@ export const visibleCorePages = (() => {
   const rank = (slug: string) => { const index = order.indexOf(slug); return index < 0 ? order.length : index; };
   return [...visible].sort((a, b) => rank(a.slug) - rank(b.slug));
 })();
+/**
+ * Header navigation entries. A hub carries its group pages as children (rendered as a dropdown),
+ * so every content page has a link in the header of every page, while the bar itself stays short.
+ */
+export const navMenu: InternalLink[] = visibleCorePages.map((page) => {
+  const children = page.pageType === "hub"
+    ? enabledCorePages.filter((child) => child.parentSlug === page.slug).map((child) => ({ label: child.navLabel, slug: child.slug }))
+    : [];
+  return children.length ? { label: page.navLabel, slug: page.slug, children } : { label: page.navLabel, slug: page.slug };
+});
 export const enabledLegalPages = legalPages.filter((page) => page.enabled);
 
 export function getPageBySlug(slug: string) {

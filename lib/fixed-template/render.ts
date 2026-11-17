@@ -1,7 +1,7 @@
 import { accentOverrideCss, resolveAccent, templatePack, type TemplatePack, type TemplateSkin } from "./catalog";
 import { SPEC_HTML } from "./spec-html";
 
-export interface TemplateLink { slug: string; label: string; href: string; }
+export interface TemplateLink { slug: string; label: string; href: string; children?: TemplateLink[]; }
 export interface TemplateEntry { href: string; title: string; text: string; }
 export interface FixedTemplateInput {
   preview?: boolean;
@@ -15,10 +15,19 @@ export function esc(value: string): string { return value.replace(/&/g,"&amp;").
 function safeAttr(value: string) { return esc(value).replace(/'/g,"&#39;"); }
 function slugOnly(value: string) { return value.replace(/^\/+|\/+$/g, ""); }
 
+/**
+ * Header links. A hub with children becomes a dropdown group: the hub link plus a menu of its group pages,
+ * so every page is linked from the header (crawlable on every page) while the bar keeps its height.
+ */
 export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", currentSlug?: string | null): string {
+  const isCurrent = (item: TemplateLink) => Boolean(page === "inner" && currentSlug && slugOnly(item.slug) === slugOnly(currentSlug));
+  const link = (item: TemplateLink, extra = "") => `<a class="nav-link${extra}${isCurrent(item) ? " active" : ""}" data-nav href="${safeAttr(item.href)}">${esc(item.label)}</a>`;
   return nav.filter((item)=>slugOnly(item.slug)).map((item)=>{
-    const active = page === "inner" && currentSlug && slugOnly(item.slug) === slugOnly(currentSlug);
-    return `<a class="nav-link${active ? " active" : ""}" data-nav href="${safeAttr(item.href)}">${esc(item.label)}</a>`;
+    const children = (item.children ?? []).filter((child)=>slugOnly(child.slug));
+    if (!children.length) return link(item);
+    const open = children.some(isCurrent) ? " active" : "";
+    const head = `<a class="nav-link nav-group-head${isCurrent(item) ? " active" : open}" data-nav href="${safeAttr(item.href)}" aria-haspopup="true">${esc(item.label)}</a>`;
+    return `<span class="nav-group">${head}<span class="nav-menu">${children.map((child)=>link(child," nav-sub")).join("")}</span></span>`;
   }).join("");
 }
 
@@ -225,6 +234,7 @@ export function scopedTemplateCss(skin:string,accentColorId?:string|null):string
   const cardBg=pack.dark?"rgba(24,24,27,0.78)":"rgba(255,255,255,0.92)";
   const borderCol=pack.dark?"rgba(255,255,255,0.16)":"rgba(15,23,42,0.14)";
   const thBg=pack.dark?"rgba(255,255,255,0.1)":"rgba(15,23,42,0.06)";
+  const menuBg=pack.dark?"#18181B":"#FFFFFF";
   const surfaceGuard=[
     `body{background:${pack.background};color:${fg}}`,
     `.site-nav{background-color:transparent}`,
@@ -241,6 +251,18 @@ export function scopedTemplateCss(skin:string,accentColorId?:string|null):string
     `#main-content th,#main-content td{border:1px solid ${borderCol};padding:10px 12px;text-align:left;vertical-align:top}`,
     `#main-content th{background:${thBg};font-weight:700}`,
     `@media(max-width:860px){.site-nav,.nav,.template-inner-row .site-nav{display:flex!important;flex-wrap:wrap!important;gap:6px!important;width:100%!important;margin-top:8px!important}}`,
+    // Header dropdown groups (hub + its group pages). Menus stay in the HTML on every width, so crawlers see every link;
+    // on narrow screens only the hub link shows and the hub page lists the group.
+    `.nav-group{position:relative;display:inline-flex;align-items:center}`,
+    `.nav-group-head::after{content:"";display:inline-block;margin-left:6px;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;vertical-align:middle;opacity:.7}`,
+    `.nav-menu{display:none;position:absolute;top:100%;left:0;z-index:80;min-width:220px;max-height:70vh;overflow-y:auto;flex-direction:column;gap:2px;padding:6px;background:${menuBg};border:1px solid ${borderCol};border-radius:8px;box-shadow:0 14px 34px rgba(0,0,0,.28)}`,
+    `.nav-group:hover>.nav-menu,.nav-group:focus-within>.nav-menu{display:flex}`,
+    `@media(min-width:861px){.desktopbar{overflow:visible}}`,
+    `.nav-menu .nav-link,.nav-menu .nav-link.active{display:block;margin:0;padding:8px 10px!important;border:0!important;border-radius:6px;box-shadow:none!important;background:transparent!important;color:${fg}!important;font-size:13px;line-height:1.35;white-space:nowrap;text-align:left}`,
+    `.nav-menu .nav-link:hover,.nav-menu .nav-link:focus-visible,.nav-menu .nav-link.active{background:${thBg}!important}`,
+    `@media(max-width:860px){.nav-menu{display:none!important}.nav-group-head::after{display:none}}`,
+    // Narrow screens: the bar holding the nav grows with the wrapped links instead of clipping them (fixed 60~72px headers).
+    `@media(max-width:860px){*:has(>.site-nav),*:has(>.nav){height:auto!important;min-height:0!important;flex-wrap:wrap!important;row-gap:4px!important;padding-top:8px!important;padding-bottom:8px!important}.site-nav .nav-link,.nav .nav-link{padding-top:7px!important;padding-bottom:7px!important}.site-nav>.nav-link,.nav>.nav-link,.nav-group>.nav-group-head{display:inline-block!important}}`,
   ].join("\n");
   const raw=extractStyle(home)+"\n"+extractStyle(inner)+"\n"+accentOverrideCss(pack.skin,paint)+"\n"+surfaceGuard;
   return scopeTemplateCss(raw,`body[data-fixed-template="${pack.skin}"]`);

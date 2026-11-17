@@ -2,7 +2,7 @@
   "readyForLaunch": true,
   "siteName": "Unstable SMP FFA Guide",
   "shortName": "Unstable SMP FFA",
-  "description": "Explore our complete Unstable SMP FFA Roblox wiki and guide featuring active redeem codes, beginner progression steps, core mechanics tables, and winning tips.",
+  "description": "Get oriented with Unstable SMP FFA: verified game access, beginner guidance, kits, maps, commands, rules, events, and update checks in one practical hub.",
   "language": "en",
   "locale": "en_US",
   "authorName": "Editorial Team",
@@ -64,8 +64,8 @@
   "navigation": [
     "codes",
     "guides",
+    "database",
     "updates",
-    "characters",
-    "items"
+    "tier-list"
   ]
 }

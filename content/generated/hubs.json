@@ -5,13 +5,13 @@
     "pageType": "hub",
     "navLabel": "Guides",
     "title": "Unstable SMP FFA Guides",
-    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable SMP FFA Java PvP, Unstable Smp Ffa Map, Unstable Smp Ffa Ip, Unstable Smp Ffa Server, Unstable…",
+    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable Smp Ffa Map, Unstable Smp Ffa Java Pvp, Unstable Smp Ffa Ip, Unstable SMP FFA Beginner Guide.",
     "navVisible": true,
     "parentSlug": "",
     "hero": {
       "eyebrow": "Index",
       "heading": "Unstable SMP FFA Guides",
-      "lead": "All 8 Unstable SMP FFA guides pages, grouped in one list. Each link opens a dedicated page."
+      "lead": "All 4 Unstable SMP FFA guides pages, grouped in one list. Each link opens a dedicated page."
     },
     "sections": [
       {
@@ -20,44 +20,77 @@
         "intro": "Pick a topic below. New Unstable SMP FFA pages in this section are added here as soon as they are published.",
         "links": [
           {
-            "label": "Unstable SMP FFA Java PvP",
-            "slug": "java-pvp",
-            "description": "Complete Unstable SMP FFA Java PvP guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
-          },
-          {
             "label": "Unstable Smp Ffa Map",
             "slug": "maps",
-            "description": "Complete Unstable Smp Ffa Map guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+            "description": "Learn how to read the Unstable SMP FFA map, plan routes, compare arena zones, prepare for matches, and navigate verified locations without assuming map details."
+          },
+          {
+            "label": "Unstable Smp Ffa Java Pvp",
+            "slug": "pvp",
+            "description": "Improve at Unstable SMP FFA PvP with a repeatable combat routine, kit testing, healing and inventory habits, practice methods, and better fight decisions."
           },
           {
             "label": "Unstable Smp Ffa Ip",
-            "slug": "ip",
-            "description": "Complete Unstable Smp Ffa Ip guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
-          },
-          {
-            "label": "Unstable Smp Ffa Server",
-            "slug": "server",
-            "description": "Complete Unstable Smp Ffa Server guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+            "slug": "server-ip",
+            "description": "Check what is verified about the Unstable SMP FFA IP, find legitimate access information, follow connection steps, and avoid fake servers and unsafe links."
           },
           {
             "label": "Unstable SMP FFA Beginner Guide",
             "slug": "beginner-guide",
-            "description": "Master the basics with our Unstable SMP FFA beginner guide on Roblox. Learn the core gameplay loop, first 15-minute progression steps, controls table, and tips."
+            "description": "Start Unstable SMP FFA with a practical guide to modes, kits, PvP setup, arena positioning, healing, defensive movement, practice, and early progress."
+          }
+        ]
+      }
+    ],
+    "faq": [],
+    "screenshots": [],
+    "relatedSlugs": [],
+    "lastReviewed": "2026-11-17"
+  },
+  {
+    "enabled": true,
+    "slug": "database",
+    "pageType": "hub",
+    "navLabel": "Database",
+    "title": "Unstable SMP FFA Database",
+    "description": "Every Unstable SMP FFA database page on this site in one place: Unstable SMP FFA Character Unlocks, Unstable SMP FFA Items, Unstable SMP FFA Kits, Unstable SMP…",
+    "navVisible": true,
+    "parentSlug": "",
+    "hero": {
+      "eyebrow": "Index",
+      "heading": "Unstable SMP FFA Database",
+      "lead": "All 5 Unstable SMP FFA database pages, grouped in one list. Each link opens a dedicated page."
+    },
+    "sections": [
+      {
+        "id": "all-pages",
+        "heading": "All Unstable SMP FFA Database",
+        "intro": "Pick a topic below. New Unstable SMP FFA pages in this section are added here as soon as they are published.",
+        "links": [
+          {
+            "label": "Unstable SMP FFA Character Unlocks",
+            "slug": "characters",
+            "description": "Compare Unstable SMP FFA character kits, check verified unlock requirements, learn how to change characters, and evaluate loadouts by role and situation."
           },
           {
-            "label": "Unstable SMP FFA Combat",
-            "slug": "combat",
-            "description": "Complete Unstable SMP FFA Combat guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+            "label": "Unstable SMP FFA Items",
+            "slug": "items",
+            "description": "Use this Unstable SMP FFA item guide to compare weapons by distance, review recovery and movement roles, and understand kits, enchantments, and item limits."
           },
           {
             "label": "Unstable SMP FFA Kits",
-            "slug": "kit",
-            "description": "Complete Unstable SMP FFA Kits guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+            "slug": "kits",
+            "description": "Compare Unstable SMP FFA kits by role, setup, combat plan, positioning, and matchup; use practical checklists to test a loadout without assuming a universal."
           },
           {
-            "label": "Unstable SMP FFA Pvp",
-            "slug": "pvp",
-            "description": "Complete Unstable SMP FFA Pvp guide on Roblox with a full attribute comparison table, step-by-step unlock requirements, progression priorities, and best."
+            "label": "Unstable SMP FFA Skins",
+            "slug": "skins",
+            "description": "Explore Unstable SMP FFA skins and cosmetics, compare Shop categories, check purchase details, and understand crates, effects, emotes, and unconfirmed options."
+          },
+          {
+            "label": "Unstable SMP FFA Weapons",
+            "slug": "weapons",
+            "description": "Review Unstable SMP FFA weapon families and verified gear, compare combat roles, and check which kits include each weapon without relying on invented stats."
           }
         ]
       }

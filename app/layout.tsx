@@ -7,7 +7,7 @@ import { siteSkin } from "@/config/skin";
 import { scopedTemplateCss } from "@/lib/fixed-template/render";
 import { isFixedTemplate } from "@/lib/fixed-template/mode";
 import { themes } from "@/config/themes";
-import { enabledLegalPages, visibleCorePages } from "@/content/registry";
+import { enabledLegalPages, navMenu } from "@/content/registry";
 import { fontFaceCss } from "@/lib/fonts";
 import { rootMetadata } from "@/lib/seo";
 import { ManualAdsterra } from "@/components/integrations/manual-adsterra";
@@ -15,7 +15,7 @@ import "./globals.css";
 
 export const metadata = rootMetadata();
 
-const navLinks = visibleCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
+const navLinks = navMenu;
 const legalLinks = enabledLegalPages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
@@ -49,7 +49,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
         <SiteHeader links={navLinks} />
         <div id="main-content">{children}</div>
         <ManualAdsterra />
-        {fixed && fixedSkin === "arcade-play" ? null : <SiteFooter coreLinks={navLinks} legalLinks={legalLinks} />}
+        {fixed && fixedSkin === "arcade-play" ? null : <SiteFooter coreLinks={navLinks.map(({ label, slug }) => ({ label, slug }))} legalLinks={legalLinks} />}
       </body>
     </html>
   );

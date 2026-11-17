@@ -22,6 +22,7 @@ export function FixedTemplateHeader({ links }: { links: InternalLink[] }) {
       slug: link.slug.replace(/^\/+|\/+$/g, ""),
       label: link.label,
       href: routePath(link.slug),
+      children: link.children?.map((child) => ({ slug: child.slug.replace(/^\/+|\/+$/g, ""), label: child.label, href: routePath(child.slug) })),
     }));
   const rendered = renderFixedDocument({
     skin,

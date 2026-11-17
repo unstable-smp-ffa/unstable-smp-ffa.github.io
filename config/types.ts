@@ -128,6 +128,8 @@ export interface InternalLink {
   label: string;
   slug: string;
   description?: string;
+  /** Header navigation only: a hub's group pages, shown as a dropdown (factory site structure v1). */
+  children?: InternalLink[];
 }
 
 export interface DataTable {

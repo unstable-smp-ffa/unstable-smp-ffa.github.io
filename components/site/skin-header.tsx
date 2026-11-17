@@ -7,6 +7,7 @@ import { useState } from "react";
 import { siteConfig } from "@/config/site";
 import type { InternalLink, ThemeSkin } from "@/config/types";
 import { assetPath, routePath } from "@/lib/urls";
+import { NavItems } from "./nav-items";
 
 function current(slug: string, pathname: string) {
   const target = routePath(slug).replace(/\/+$/, "") || "/";
@@ -27,20 +28,7 @@ export function SkinHeader({ links, skin }: { links: InternalLink[]; skin: Theme
   );
   const nav = (
     <nav aria-label="Primary navigation" className={`skin-nav ${open ? "is-open" : ""}`}>
-      {links.map((link) => {
-        const active = current(link.slug, pathname);
-        return (
-          <Link
-            key={link.slug || "home"}
-            href={routePath(link.slug)}
-            aria-current={active ? "page" : undefined}
-            className={`site-nav-link ${active ? "is-active" : ""}`}
-            onClick={() => setOpen(false)}
-          >
-            {link.label}
-          </Link>
-        );
-      })}
+      <NavItems links={links} linkClassName="site-nav-link" isCurrent={(slug) => current(slug, pathname)} onNavigate={() => setOpen(false)} />
     </nav>
   );
   const toggle = (
