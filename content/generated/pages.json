@@ -105,7 +105,8 @@
       "beginner-guide",
       "server-ip",
       "updates",
-      "tier-list"
+      "tier-list",
+      "controls"
     ],
     "lastReviewed": "2026-11-17"
   },
@@ -203,7 +204,8 @@
       "maps",
       "beginner-guide",
       "updates",
-      "tier-list"
+      "tier-list",
+      "controls"
     ],
     "lastReviewed": "2026-11-17"
   },
@@ -344,7 +346,8 @@
       "beginner-guide",
       "pvp",
       "maps",
-      "codes"
+      "codes",
+      "controls"
     ],
     "lastReviewed": "2026-11-17"
   },
@@ -592,7 +595,8 @@
       "maps",
       "server-ip",
       "pvp",
-      "codes"
+      "codes",
+      "controls"
     ],
     "lastReviewed": "2026-11-17"
   },
@@ -1266,7 +1270,8 @@
       "weapons",
       "skins",
       "maps",
-      "kits"
+      "kits",
+      "controls"
     ],
     "lastReviewed": "2026-11-17"
   },
@@ -1373,5 +1378,129 @@
       "kits"
     ],
     "lastReviewed": "2026-11-17"
+  },
+  {
+    "enabled": true,
+    "slug": "controls",
+    "pageType": "guide",
+    "navLabel": "Controls",
+    "title": "Unstable SMP FFA Controls (2026) – Tips & Strategy",
+    "description": "Get more out of controls in Unstable SMP FFA on Roblox: the mechanics that matter, a simple strategy to follow and the traps to avoid. Updated for Roblox.",
+    "navVisible": false,
+    "parentSlug": "guides",
+    "hero": {
+      "eyebrow": "Guide",
+      "heading": "Unstable SMP FFA Controls: Strategy, Key Mechanics & What to Avoid",
+      "lead": "Unstable SMP FFA controls are rebindable across PC, phone, and controller, so you can adjust the layout before committing to a fight. The game combines character-based free-for-all combat with Java 1.21.11-inspired tools such as spears, maces, elytra, rockets, wind charges, pearls, tridents, and TNT carts. Start by checking your input device, rebind the actions you use most, and test movement and combat in the Practice Dummy. The sections below explain the control context, testing routine, practical priorities, and mistakes that make fights harder."
+    },
+    "sections": [
+      {
+        "id": "how-rebindable-controls-fit-the-combat-system",
+        "heading": "How Rebindable Controls Fit the Combat System",
+        "intro": "In Unstable SMP FFA, you spawn into free-for-all combat as an Unstable Universe character with their own gear. The character determines the gear you start with; your control layout determines how you operate it. Rebinding changes which input you use, not what the gear does.",
+        "paragraphs": [
+          "PC, phone, and controller all support rebinding. Check the layout shown in-game for the device you're using rather than assuming it matches another device or your usual Minecraft setup. When deciding what to change, think about which actions you need to perform together. If reaching an attack input makes you let go of movement or stop aiming, that's a better reason to rebind it than simply preferring a different key or button."
+        ],
+        "table": {
+          "caption": "Unstable SMP FFA Controls at a Glance",
+          "columns": [
+            "Topic",
+            "What you'll find"
+          ],
+          "rows": [
+            [
+              "How Rebindable Controls Fit the Combat System",
+              "In Unstable SMP FFA, you spawn into free-for-all combat as an Unstable Universe character with their own gear."
+            ],
+            [
+              "Test Movement and Combat Inputs Before a Match",
+              "Use the Practice Dummy to test one input at a time, then combine inputs in a short drill."
+            ],
+            [
+              "Match Your Layout to Java-Style Combat Tools",
+              "Set up your controls around the gear your character actually carries."
+            ],
+            [
+              "Controls for Solo and Group Simulator Sessions",
+              "Simulator lets you play alone or bring a party of up to 10, with encounters featuring up to 100 soldiers."
+            ],
+            [
+              "Avoid Rebinding Mistakes During Arena Rotations",
+              "Unstable SMP FFA rotates between Northern Council, MinuteTech's End Base, and FlameFrags & Wemmbu's 2v1000 every 15 minutes."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "test-movement-and-combat-inputs-before-a-match",
+        "heading": "Test Movement and Combat Inputs Before a Match",
+        "intro": "Use the Practice Dummy to test one input at a time, then combine inputs in a short drill. Start from the same spot each time so you can compare how the sequence feels after a rebind.",
+        "paragraphs": [
+          "Use the Practice Dummy to test one input at a time, then combine inputs in a short drill. Start from the same spot each time so you can compare how the sequence feels after a rebind."
+        ],
+        "bullets": [
+          "Start with movement. Step left, step right, then turn back toward the dummy. Repeat until you can finish facing the target without pausing to find an input.",
+          "Pick one tool you plan to use. Try its action while standing still, then repeat it after a sidestep. Check whether you can trigger the action while keeping the dummy in view.",
+          "If you keep hitting the wrong input or have to stop moving to reach it, change one binding and run the same drill again."
+        ]
+      },
+      {
+        "id": "match-your-layout-to-java-style-combat-tools",
+        "heading": "Match Your Layout to Java-Style Combat Tools",
+        "intro": "Set up your controls around the gear your character actually carries. If your kit has a spear or mace, put the input you use for lunges or smashes somewhere you can reach while steering and aiming. If pressing it makes you take your thumb off a stick or shift the fingers you use to move, try a different binding.",
+        "paragraphs": [
+          "For a kit with elytra and rockets, check whether you can use a rocket while steering. If you carry a pearl or wind charge for recovery, make it easy to select and use under pressure. Where your layout allows it, give attack and item use distinct inputs so you can switch from swinging to using a recovery item without fumbling for the control."
+        ]
+      },
+      {
+        "id": "controls-for-solo-and-group-simulator-sessions",
+        "heading": "Controls for Solo and Group Simulator Sessions",
+        "intro": "Simulator lets you play alone or bring a party of up to 10, with encounters featuring up to 100 soldiers. Test your layout in the setting you plan to play. In a solo run, check whether you can turn the camera while backing away and still reach your attack input when you’re ready to engage again.",
+        "paragraphs": [
+          "With a party, check how easily you can look back toward a teammate while keeping your character moving. If you keep reaching for the wrong button or tap the wrong spot, note which action caused the slip and finish the run with your familiar layout. Between runs, change that one binding and try the same movement again."
+        ]
+      },
+      {
+        "id": "avoid-rebinding-mistakes-during-arena-rotations",
+        "heading": "Avoid Rebinding Mistakes During Arena Rotations",
+        "intro": "Unstable SMP FFA rotates between Northern Council, MinuteTech's End Base, and FlameFrags & Wemmbu's 2v1000 every 15 minutes. Keep your familiar layout when the arena changes, and save any rebinding for before you join the next fight.",
+        "paragraphs": [
+          "Unstable SMP FFA rotates between Northern Council, MinuteTech's End Base, and FlameFrags & Wemmbu's 2v1000 every 15 minutes. Keep your familiar layout when the arena changes, and save any rebinding for before you join the next fight."
+        ],
+        "bullets": [
+          "Change one binding at a time. Note the previous input so you can restore it if you keep reaching for it.",
+          "After a change, move and turn while using the remapped action. It may feel easy to reach while standing still but awkward when your fingers are already on the movement controls.",
+          "If an input feels awkward after a rotation, try the same action sequence with your current layout before changing it again."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can you rebind controls in Unstable SMP FFA?",
+        "answer": "Yes. The developer advertises rebindable controls for Unstable SMP FFA. The confirmed description does not provide a complete default key list or identify every action that can be changed, so use the in-game control settings to review the available options and test the new layout before entering a serious fight."
+      },
+      {
+        "question": "Can you play Unstable SMP FFA on PC, phone, or controller?",
+        "answer": "The advertised input support includes PC, phone, and controller play. Because the available control layouts can differ by device, check the control screen after joining and make sure movement, attack, mobility, and item actions respond correctly on the device you plan to use."
+      },
+      {
+        "question": "How can you test a new control layout before joining a match?",
+        "answer": "Use the Practice Dummy mode before entering a match. This gives you a place to check whether movement and combat inputs feel consistent after rebinding. Test the actions connected to your selected character's gear, then keep the layout unchanged while you learn its timing."
+      },
+      {
+        "question": "How does controls work in Unstable SMP FFA?",
+        "answer": "Controls let players operate character-based combat on PC, phone, or controller, with the option to rebind supported inputs. The game advertises Java 1.21.11-inspired combat and includes multiple weapons and movement tools, so a useful layout should make both movement and combat actions dependable."
+      }
+    ],
+    "screenshots": [],
+    "relatedSlugs": [
+      "",
+      "guides",
+      "maps",
+      "beginner-guide",
+      "pvp",
+      "server-ip"
+    ],
+    "lastReviewed": "2026-11-19"
   }
 ]

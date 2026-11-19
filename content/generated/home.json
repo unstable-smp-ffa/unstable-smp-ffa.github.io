@@ -95,6 +95,19 @@
       ]
     },
     {
+      "id": "latest-updates",
+      "eyebrow": "Latest Updates",
+      "heading": "New Unstable SMP FFA Pages",
+      "intro": "Added on 2026-11-19: new Unstable SMP FFA guides and references on this site.",
+      "links": [
+        {
+          "label": "Unstable SMP FFA Controls",
+          "slug": "controls",
+          "description": "Get more out of controls in Unstable SMP FFA on Roblox: the mechanics that matter, a simple strategy to follow and the traps to avoid. Updated for Roblox."
+        }
+      ]
+    },
+    {
       "id": "guide-directory-codes",
       "eyebrow": "Guides & Wiki",
       "heading": "Unstable SMP FFA Codes & Rewards",
@@ -145,6 +158,11 @@
           "label": "Unstable SMP FFA Beginner Guide",
           "slug": "beginner-guide",
           "description": "Start Unstable SMP FFA with a practical guide to modes, kits, PvP setup, arena positioning, healing, defensive movement, practice, and early progress."
+        },
+        {
+          "label": "Unstable SMP FFA Controls",
+          "slug": "controls",
+          "description": "Get more out of controls in Unstable SMP FFA on Roblox: the mechanics that matter, a simple strategy to follow and the traps to avoid. Updated for Roblox."
         },
         {
           "label": "All Unstable SMP FFA Guides",
@@ -256,5 +274,5 @@
       "sourceType": "guide"
     }
   ],
-  "lastReviewed": "2026-11-17"
+  "lastReviewed": "2026-11-19"
 }

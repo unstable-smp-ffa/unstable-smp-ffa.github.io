@@ -5,13 +5,13 @@
     "pageType": "hub",
     "navLabel": "Guides",
     "title": "Unstable SMP FFA Guides",
-    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable SMP FFA Map, Unstable SMP FFA Java PvP, Unstable SMP FFA IP, Unstable SMP FFA Beginner Guide.",
+    "description": "Every Unstable SMP FFA guide on this site in one place: Unstable SMP FFA Map, Unstable SMP FFA Java PvP, Unstable SMP FFA IP, Unstable SMP FFA Beginner Guide…",
     "navVisible": true,
     "parentSlug": "",
     "hero": {
       "eyebrow": "Index",
       "heading": "Unstable SMP FFA Guides",
-      "lead": "All 4 Unstable SMP FFA guides pages, grouped in one list. Each link opens a dedicated page."
+      "lead": "All 5 Unstable SMP FFA guides pages, grouped in one list. Each link opens a dedicated page."
     },
     "sections": [
       {
@@ -38,6 +38,11 @@
             "label": "Unstable SMP FFA Beginner Guide",
             "slug": "beginner-guide",
             "description": "Start Unstable SMP FFA with a practical guide to modes, kits, PvP setup, arena positioning, healing, defensive movement, practice, and early progress."
+          },
+          {
+            "label": "Unstable SMP FFA Controls",
+            "slug": "controls",
+            "description": "Get more out of controls in Unstable SMP FFA on Roblox: the mechanics that matter, a simple strategy to follow and the traps to avoid. Updated for Roblox."
           }
         ]
       }
@@ -45,7 +50,7 @@
     "faq": [],
     "screenshots": [],
     "relatedSlugs": [],
-    "lastReviewed": "2026-11-17"
+    "lastReviewed": "2026-11-19"
   },
   {
     "enabled": true,
